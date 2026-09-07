@@ -4,356 +4,683 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="Portfolio Anisa Trizaskia — Video Editor">
+
   <title>Anisa Trizaskia — Video Editor</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+  <!-- Background -->
   <div class="ambient ambient-1"></div>
   <div class="ambient ambient-2"></div>
 
+
+  <!-- HEADER -->
   <header class="header">
+
     <a href="#home" class="brand" aria-label="Anisa Trizaskia Home">
+
       <span class="brand-mark">
         <span></span>
       </span>
-      <span>Ngedit.Sa<span class="dot">.</span></span>
+
+      <span>
+        Ngedit.Sa<span class="dot">.</span>
+      </span>
+
     </a>
 
-    <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false">
-      <i></i><i></i><i></i>
+
+    <!-- MENU BUTTON -->
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      aria-label="Buka menu"
+      aria-expanded="false">
+
+      <i></i>
+      <i></i>
+      <i></i>
+
     </button>
 
+
+    <!-- NAVIGATION -->
     <nav class="mobile-nav" id="mobileNav">
+
       <a href="#home">Home</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Kontak</a>
+
     </nav>
+
   </header>
 
+
+  <!-- MAIN -->
   <main>
+
+
+    <!-- HERO -->
     <section class="hero" id="home">
+
+
+      <!-- PROFILE -->
       <div class="profile-wrap">
+
         <div class="profile-glow"></div>
-        <img src="assets/profile.jpeg" class="profile" alt="Anisa Trizaskia">
+
+        <img
+          src="assets/profile.jpeg"
+          class="profile"
+          alt="Anisa Trizaskia">
+
       </div>
 
+
+      <!-- HERO TEXT -->
       <div class="hero-copy">
-        <div class="eyebrow">VIDEO EDITOR</div>
-        <p class="hello">Hai, saya</p>
-        <h1>Anisa <span>Trizaskia</span></h1>
-        <p class="intro">
-          Video editor profesional yang membantu<br class="desktop">
-          mengubah ide menjadi visual yang<br class="desktop">
-          menarik, kreatif, dan berkesan.
+
+
+        <div class="eyebrow">
+          VIDEO EDITOR
+        </div>
+
+
+        <p class="hello">
+          Hai, saya
         </p>
 
+
+        <h1>
+          Anisa
+          <span>Trizaskia</span>
+        </h1>
+
+
+        <p class="intro">
+
+          Video editor profesional yang membantu
+          <br class="desktop">
+
+          mengubah ide menjadi visual yang
+          <br class="desktop">
+
+          menarik, kreatif, dan berkesan.
+
+        </p>
+
+
+        <!-- BUTTON -->
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#portfolio">
-            <span class="mini-play">&#9654;</span>
-            <span>Lihat Karya Saya</span>
-            <span class="arrow">&#8594;</span>
+
+
+          <a
+            class="btn btn-primary"
+            href="#portfolio">
+
+            <span class="mini-play">
+              ▶
+            </span>
+
+            <span>
+              Lihat Karya Saya
+            </span>
+
+            <span class="arrow">
+              →
+            </span>
+
           </a>
-          <a class="btn btn-outline" href="#contact">
+
+
+          <a
+            class="btn btn-outline"
+            href="#contact">
+
             <span class="bubble-icon"></span>
-            <span>Hubungi Saya</span>
+
+            <span>
+              Hubungi Saya
+            </span>
+
           </a>
+
+
         </div>
 
-        <div class="socials" aria-label="Social media">
-          <a href="https://www.instagram.com/sasaaa.rz?igsi=MWNmMmt4a3lld2RyNA%3D%3D&utm_source=qr" target="_blank"
-            rel="noopener noreferrer" aria-label="Instagram" class="social instagram">
+
+        <!-- SOCIAL MEDIA -->
+        <div
+          class="socials"
+          aria-label="Social media">
+
+
+          <!-- INSTAGRAM -->
+          <a
+            href="https://www.instagram.com/sasaaa.rz?igsh=MWNmMmt4a3lld2RyNA=="
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            class="social instagram">
+
             <svg viewBox="0 0 24 24">
-              <rect x="3.3" y="3.3" width="17.4" height="17.4" rx="5"></rect>
-              <circle cx="12" cy="12" r="4.1"></circle>
-              <circle cx="17.5" cy="6.7" r="1"></circle>
+
+              <rect
+                x="3.3"
+                y="3.3"
+                width="17.4"
+                height="17.4"
+                rx="5">
+              </rect>
+
+              <circle
+                cx="12"
+                cy="12"
+                r="4.1">
+              </circle>
+
+              <circle
+                cx="17.5"
+                cy="6.7"
+                r="1">
+              </circle>
+
             </svg>
+
           </a>
-          <a href="#" aria-label="YouTube" class="social youtube">
-            <svg viewBox="0 0 24 24" fill="currentColor">
+
+
+          <!-- YOUTUBE -->
+          <a
+            href="#"
+            aria-label="YouTube"
+            class="social youtube">
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor">
+
               <path
                 d="M21 7.1a2.9 2.9 0 0 0-2.04-2.05C17.16 4.55 12 4.55 12 4.55s-5.16 0-6.96.5A2.9 2.9 0 0 0 3 7.1 30 30 0 0 0 2.5 12c0 1.63.17 3.27.5 4.9a2.9 2.9 0 0 0 2.04 2.05c1.8.5 6.96.5 6.96.5s5.16 0 6.96-.5A2.9 2.9 0 0 0 21 16.9c.33-1.63.5-3.27.5-4.9s-.17-3.27-.5-4.9ZM10 15.5v-7l6 3.5-6 3.5Z" />
+
             </svg>
+
           </a>
-          <a href="#" aria-label="TikTok" class="social tiktok">
-            <svg viewBox="0 0 24 24" fill="currentColor">
+
+
+          <!-- TIKTOK -->
+          <a
+            href="#"
+            aria-label="TikTok"
+            class="social tiktok">
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor">
+
               <path
                 d="M15.4 3c.22 2.1 1.4 3.4 3.6 3.55v3.05c-1.3.13-2.47-.3-3.58-1v6.55c0 8.1-8.85 10.63-12.4 4.83-2.28-3.74-.88-10.3 5.73-10.56v3.28c-.5.08-1.03.2-1.48.41-1.36.64-2.12 1.85-1.72 3.32.77 2.8 5.9 3.62 5.9-.73V3h3.95Z" />
+
             </svg>
+
           </a>
-          <a href="mailto:anisatrizaskia2003@gmail.com" aria-label="Email" class="social mail">
+
+
+          <!-- EMAIL -->
+          <a
+            href="mailto:anisatrizaskia2003@gmail.com"
+            aria-label="Email"
+            class="social mail">
+
             <svg viewBox="0 0 24 24">
-              <rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect>
-              <path d="m3.5 6 8.5 7 8.5-7"></path>
+
+              <rect
+                x="2.5"
+                y="4.5"
+                width="19"
+                height="15"
+                rx="2">
+              </rect>
+
+              <path
+                d="m3.5 6 8.5 7 8.5-7">
+              </path>
+
             </svg>
+
           </a>
+
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="portfolio" id="portfolio">
+
+
+    <!-- PORTFOLIO -->
+    <section
+      class="portfolio"
+      id="portfolio">
+
+
+      <!-- TITLE -->
       <div class="section-heading">
-        <div class="eyebrow">PORTFOLIO</div>
-        <h2>Beberapa hasil karya saya</h2>
+
+        <div class="eyebrow">
+          PORTFOLIO
+        </div>
+
+        <h2>
+          Beberapa hasil karya saya
+        </h2>
+
         <div class="heading-line"></div>
+
       </div>
 
+
+
+      <!-- VIDEO GRID -->
       <div class="portfolio-grid">
 
-        <!-- Video 1 -->
-        <article class="card" data-index="0" data-title="Review Produk" data-category="REVIEW PRODUK"
-          data-youtube-id="dPOP97WSU3A">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/dPOP97WSU3A/maxresdefault.jpg" alt="Review Produk" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+        <!-- VIDEO 1 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/dPOP97WSU3A?autoplay=1&mute=1&loop=1&playlist=dPOP97WSU3A&playsinline=1&rel=0&enablejsapi=1"
+              title="Review Produk"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Review Produk</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Review Produk
+          </h3>
+
         </article>
 
-        <!-- Video 2 -->
-        <article class="card" data-index="1" data-title="Review Produk" data-category="REVIEW PRODUK"
-          data-youtube-id="fh6qXp8BHbU">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/fh6qXp8BHbU/maxresdefault.jpg" alt="Review Produk" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 2 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/fh6qXp8BHbU?autoplay=1&mute=1&loop=1&playlist=fh6qXp8BHbU&playsinline=1&rel=0&enablejsapi=1"
+              title="Review Produk"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Review Produk</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Review Produk
+          </h3>
+
         </article>
 
-        <!-- Video 3 -->
-        <article class="card" data-index="2" data-title="Endorse Produk" data-category="ENDORSE PRODUK"
-          data-youtube-id="JRUSp_R42as">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/JRUSp_R42as/maxresdefault.jpg" alt="Endorse Produk" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 3 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/JRUSp_R42as?autoplay=1&mute=1&loop=1&playlist=JRUSp_R42as&playsinline=1&rel=0&enablejsapi=1"
+              title="Endorse Produk"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Endorse Produk</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Endorse Produk
+          </h3>
+
         </article>
 
-        <!-- Video 4 -->
-        <article class="card" data-index="3" data-title="Video Perkenalan" data-category="VIDEO PERKENALAN"
-          data-youtube-id="-_DMRemOaSQ">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/-_DMRemOaSQ/maxresdefault.jpg" alt="Video Perkenalan" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 4 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/-_DMRemOaSQ?autoplay=1&mute=1&loop=1&playlist=-_DMRemOaSQ&playsinline=1&rel=0&enablejsapi=1"
+              title="Video Perkenalan"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Video Perkenalan</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Video Perkenalan
+          </h3>
+
         </article>
 
-        <!-- Video 5 -->
-        <article class="card" data-index="4" data-title="Video Perkenalan" data-category="VIDEO PERKENALAN"
-          data-youtube-id="x9i6m9iPb8c">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/x9i6m9iPb8c/maxresdefault.jpg" alt="Video Perkenalan" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 5 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/x9i6m9iPb8c?autoplay=1&mute=1&loop=1&playlist=x9i6m9iPb8c&playsinline=1&rel=0&enablejsapi=1"
+              title="Video Perkenalan"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Video Perkenalan</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Video Perkenalan
+          </h3>
+
         </article>
 
-        <!-- Video 6 -->
-        <article class="card" data-index="5" data-title="Story Telling Aku" data-category="STORY TELLING"
-          data-youtube-id="_svTuuI8PTU">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/_svTuuI8PTU/maxresdefault.jpg" alt="Story Telling Aku" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 6 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/_svTuuI8PTU?autoplay=1&mute=1&loop=1&playlist=_svTuuI8PTU&playsinline=1&rel=0&enablejsapi=1"
+              title="Story Telling Aku"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Story Telling Aku</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Story Telling Aku
+          </h3>
+
         </article>
 
-        <!-- Video 7 -->
-        <article class="card" data-index="6" data-title="Video Perkenalan" data-category="VIDEO PERKENALAN"
-          data-youtube-id="TZaBXL51gvs">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/TZaBXL51gvs/maxresdefault.jpg" alt="Video Perkenalan" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 7 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/TZaBXL51gvs?autoplay=1&mute=1&loop=1&playlist=TZaBXL51gvs&playsinline=1&rel=0&enablejsapi=1"
+              title="Video Perkenalan"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Video Perkenalan</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Video Perkenalan
+          </h3>
+
         </article>
 
-        <!-- Video 8 -->
-        <article class="card" data-index="7" data-title="Review Produk" data-category="REVIEW PRODUK"
-          data-youtube-id="oOPqugWswbk">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/oOPqugWswbk/maxresdefault.jpg" alt="Review Produk" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 8 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/oOPqugWswbk?autoplay=1&mute=1&loop=1&playlist=oOPqugWswbk&playsinline=1&rel=0&enablejsapi=1"
+              title="Review Produk"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Review Produk</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Review Produk
+          </h3>
+
         </article>
 
-        <!-- Video 9 -->
-        <article class="card" data-index="8" data-title="Butuh Editor" data-category="BUTUH EDITOR"
-          data-youtube-id="dQspOGxnDaI">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/dQspOGxnDaI/maxresdefault.jpg" alt="Butuh Editor" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 9 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/dQspOGxnDaI?autoplay=1&mute=1&loop=1&playlist=dQspOGxnDaI&playsinline=1&rel=0&enablejsapi=1"
+              title="Butuh Editor"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Butuh Editor</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Butuh Editor
+          </h3>
+
         </article>
 
-        <!-- Video 10 -->
-        <article class="card" data-index="9" data-title="Video Promosi Affiliate" data-category="PROMOSI AFFILIATE"
-          data-youtube-id="aqw-QvkkqFk">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/aqw-QvkkqFk/maxresdefault.jpg" alt="Video Promosi Affiliate"
-              loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 10 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/aqw-QvkkqFk?autoplay=1&mute=1&loop=1&playlist=aqw-QvkkqFk&playsinline=1&rel=0&enablejsapi=1"
+              title="Video Promosi Affiliate"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Video Promosi Affiliate</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Video Promosi Affiliate
+          </h3>
+
         </article>
 
-        <!-- Video 11 -->
-        <article class="card" data-index="10" data-title="Review Produk" data-category="REVIEW PRODUK"
-          data-youtube-id="7wB3O22LCZ8">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/7wB3O22LCZ8/maxresdefault.jpg" alt="Review Produk" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 11 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/7wB3O22LCZ8?autoplay=1&mute=1&loop=1&playlist=7wB3O22LCZ8&playsinline=1&rel=0&enablejsapi=1"
+              title="Review Produk"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Review Produk</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Review Produk
+          </h3>
+
         </article>
 
-        <!-- Video 12 -->
-        <article class="card" data-index="11" data-title="Video Perkenalan" data-category="VIDEO PERKENALAN"
-          data-youtube-id="mvSCNUWjTks">
-          <div class="thumb yt-thumb">
-            <img src="https://i.ytimg.com/vi/mvSCNUWjTks/maxresdefault.jpg" alt="Video Perkenalan" loading="lazy">
-            <div class="yt-play-btn" aria-hidden="true">
-              <svg viewBox="0 0 68 48" fill="none">
-                <rect width="68" height="48" rx="10" fill="#FF0000" fill-opacity=".9" />
-                <polygon points="28,16 28,32 46,24" fill="#fff" />
-              </svg>
-            </div>
+
+
+        <!-- VIDEO 12 -->
+        <article class="card">
+
+          <div class="thumb video-container">
+
+            <iframe
+              class="portfolio-video"
+              src="https://www.youtube.com/embed/mvSCNUWjTks?autoplay=1&mute=1&loop=1&playlist=mvSCNUWjTks&playsinline=1&rel=0&enablejsapi=1"
+              title="Video Perkenalan"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+
           </div>
-          <div class="card-category">TALKING HEAD</div>
-          <h3>Video Perkenalan</h3>
+
+          <div class="card-category">
+            TALKING HEAD
+          </div>
+
+          <h3>
+            Video Perkenalan
+          </h3>
+
         </article>
+
 
       </div>
+
     </section>
 
-    <section class="contact-box" id="contact">
-      <div class="contact-icon"><span></span></div>
+
+
+    <!-- CONTACT -->
+    <section
+      class="contact-box"
+      id="contact">
+
+      <div class="contact-icon">
+        <span></span>
+      </div>
+
+
       <div class="contact-copy">
-        <h2>Tertarik bekerja sama?</h2>
-        <p>Mari wujudkan ide Anda menjadi video yang berkesan.</p>
+
+        <h2>
+          Tertarik bekerja sama?
+        </h2>
+
+        <p>
+          Mari wujudkan ide Anda menjadi video yang berkesan.
+        </p>
+
       </div>
-      <a href="mailto:anisatrizaskia2003@gmail.com" class="contact-btn">
-        Hubungi Saya <span>&#8594;</span>
+
+
+      <a
+        href="mailto:anisatrizaskia2003@gmail.com"
+        class="contact-btn">
+
+        Hubungi Saya
+
+        <span>
+          →
+        </span>
+
       </a>
+
     </section>
+
+
   </main>
 
-  <footer>&#169; <span id="currentYear"></span> <span>Anisa Trizaskia</span>. All rights reserved.</footer>
 
-  <!-- ============================================================
-       Video Modal Popup
-       ============================================================ -->
-  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Video player">
-    <div class="modal-backdrop" id="modalBackdrop"></div>
 
-    <div class="modal-content">
-      <!-- Close button -->
-      <button class="modal-close" id="modalClose" aria-label="Tutup popup">&#x2715;</button>
+  <!-- FOOTER -->
+  <footer>
 
-      <!-- YouTube iframe injected here by JS -->
-      <div class="modal-video-wrap" id="modalVideoWrap"></div>
+    ©
 
-      <!-- Video info -->
-      <div class="modal-info">
-        <div class="card-category" id="modalCategory"></div>
-        <h2 id="modalTitle"></h2>
-      </div>
+    <span id="currentYear"></span>
 
-      <!-- Prev / Counter / Next -->
-      <div class="modal-nav">
-        <button class="modal-nav-btn" id="modalPrev" aria-label="Video sebelumnya">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-            stroke-linejoin="round">
-            <polyline points="15 18 9 12 15 6"></polyline>
-          </svg>
-          <span>Prev</span>
-        </button>
+    <span>
+      Anisa Trizaskia
+    </span>
 
-        <span class="modal-counter" id="modalCounter">1 / 12</span>
+    . All rights reserved.
 
-        <button class="modal-nav-btn" id="modalNext" aria-label="Video berikutnya">
-          <span>Next</span>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-            stroke-linejoin="round">
-            <polyline points="9 18 15 12 9 6"></polyline>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </div>
+  </footer>
+
+
 
   <script src="script.js"></script>
+
 </body>
 
 </html>
